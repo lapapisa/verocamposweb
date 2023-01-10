@@ -80,7 +80,8 @@ jQuery(document).ready(function($) {
         if( ferror ) return false; 
         else {
             $("#sendmessage").addClass("show");			
-            $("#errormessage").removeClass("show");	
+            $("#errormessage").removeClass("show");
+            $("#gtm-btn").trigger("click");	
         };            
         return false;
     });
