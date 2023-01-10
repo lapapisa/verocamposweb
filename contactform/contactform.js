@@ -76,26 +76,12 @@ jQuery(document).ready(function($) {
                 i.next('.validation').html( ( ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '' ) ).show('blind');
             }
         });
+        
         if( ferror ) return false; 
-        else var str = $(this).serialize();		
-            $.ajax({
-                type: "POST",
-                url: "contactform/contactform.php",
-                data: str,
-                success: function(msg){
-                   // alert(msg);
-                    if(msg == 'OK') {
-                        $("#sendmessage").addClass("show");			
-                        $("#errormessage").removeClass("show");	
-                    }
-                    else {
-                        $("#sendmessage").removeClass("show");
-                        $("#errormessage").addClass("show");
-                        $('#errormessage').html(msg);
-                    }
-                    
-                }
-            });
+        else {
+            $("#sendmessage").addClass("show");			
+            $("#errormessage").removeClass("show");	
+        };            
         return false;
     });
 
