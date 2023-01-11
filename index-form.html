@@ -33,11 +33,12 @@
   <link id="t-colors" href="color/vero.css" rel="stylesheet">
 
 </head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7SFHMH"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
   <div id="wrapper">
 
@@ -46,7 +47,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-md-6">
-              <p class="bold text-left">Lunes - Viernes, 9am a 17pm | Sábado hasta mediodía</p>
+              <p class="bold text-left">Lunes - Viernes, 9am a 17pm | Sábado hasta mediodía </p>
             </div>
             <div class="col-sm-6 col-md-6">
               <p class="bold text-right">Llama ahora +593 984 373 144</p>
@@ -91,7 +92,7 @@
 
     <!-- Section: intro -->
     <section id="intro" class="intro">
-      <div class="intro-content">
+      <div class="intro-content paddingbot-50">
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
@@ -99,7 +100,7 @@
                 <h1 class="h-ultra">Terapias Holísticas</h1>
               </div>
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.1s">
-                <h4 class="h-light">Encuentra la <span class="color">mejor versión</span> de ti</h4>
+                <h4 class="h-light">Encuentra la <span class="color">mejor versión</span> de tí</h4>
               </div>
               <div class="well well-trans">
                 <div class="wow fadeInRight" data-wow-delay="0.1s">
@@ -109,7 +110,9 @@
                     <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Botica de flores de Bach</strong><br />Inicia tu proceso de sanación reconociendo el síntoma</span></li>
                     <!-- <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Compra mi libro de Tarot básico</strong><br />Lorem ipsum dolor sit amet, in verterem persecuti vix, sit te meis</span></li> -->
                   </ul>
-
+                  <!-- <p class="text-right wow bounceIn" data-wow-delay="0.4s">
+                    <a href="#" class="btn btn-skin btn-lg">Learn more <i class="fa fa-angle-right"></i></a>
+                  </p> -->
                 </div>
               </div>
 
@@ -121,14 +124,13 @@
 
                   <div class="panel panel-skin">
                     <div class="panel-heading">
-                      <h3 class="panel-title"><span class="fa fa-pencil-square-o"></span> Consultas para terapia desde $30 <small>(Agenda tu cita!)</small></h3>
+                      <h3 class="panel-title"><span class="fa fa-pencil-square-o"></span> Consultas para terapia desde 30USD <small>(Agenda tu cita!)</small></h3>
                     </div>
                     <div class="panel-body">
                       <div id="sendmessage">Tu mensage ha sido enviado. Gracias!</div>
                       <div id="errormessage"></div>
 
-                      <form action="" method="post" role="form" class="contactForm lead"  data-netlify="true">
-                        <input type="hidden" name="form-name" value="formulario-cita">
+                      <form action="" method="post" role="form" class="contactForm lead" name="formulario-consulta" netlify>
                         <div class="row">
                           <div class="col-xs-6 col-sm-6 col-md-6">
                             <div class="form-group">
@@ -163,8 +165,8 @@
                           </div>
                         </div>
 
-                        <input type="submit" value="Enviar" class="btn btn-skin btn-block btn-lg" id="enviar-consulta">
-                        <input id="gtm_btn"  type="button" onclick="">
+                        <input type="submit" value="Enviar" class="btn btn-skin btn-block btn-lg" id="enviar_frm">
+                        <button id="gtm_btn" style="display:none" type="button" >GTM</button>
 
                         <p class="lead-footer">* Nos podremos en contacto por teléfono/email pronto</p>
 
@@ -765,7 +767,7 @@
           <div class="col-sm-6 col-md-4">
             <div class="wow fadeInDown" data-wow-delay="0.1s">
               <div class="widget">
-                <h5>Quienes Somos!</h5>
+                <h5>Quiénes Somos!</h5>
                 <p>
                   Un espacio creado para acompañarte e impulsarte a recuperar el contacto contigo mismo
                 </p>
@@ -773,7 +775,7 @@
             </div>
             <div class="wow fadeInDown" data-wow-delay="0.1s">
               <div class="widget">
-                <h5>Informacion</h5>
+                <h5>Información</h5>
                 <ul>
                   <li><a href="index.html">Inicio</a></li>
                   <li><a href="index-form.html">Consultas</a></li>
@@ -877,7 +879,6 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/nivo-lightbox.min.js"></script>
   <script src="js/custom.js"></script>
-  <script src="contactform/contactform.js"></script>
 
 </body>
 

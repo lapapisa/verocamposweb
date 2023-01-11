@@ -81,12 +81,12 @@ jQuery(document).ready(function($) {
         else {
             $("#sendmessage").addClass("show");			
             $("#errormessage").removeClass("show");
-            $('#enviar-consulta').prop('disabled', true);
             $("#gtm_btn").on('click', function(){
                 console.log('Acción ejecutada!')
               })
               
-              $('#gtm_btn').trigger('click');
+            $('#gtm_btn').trigger('click');
+            $('#enviar_frm').prop('disabled', true);
             //$("#gtm_btn").trigger("click");	
             //alert('OK');
         };            
