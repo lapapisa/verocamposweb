@@ -82,6 +82,7 @@ jQuery(document).ready(function($) {
             $("#sendmessage").addClass("show");			
             $("#errormessage").removeClass("show");
             $("#gtm-btn").trigger("click");	
+            //alert('OK');
         };            
         return false;
     });
