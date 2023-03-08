@@ -801,7 +801,7 @@ ul.lead-list li span.fa {
 }
 
 ul.lead-list li span.list {
-	display: inline-block;
+	/* display: inline-block; */
 	margin: 0 0 0 10px;
 }
 
