@@ -99,21 +99,21 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="wow fadeInDown" data-wow-offset="0" data-wow-delay="0.1s">
-                <h1 class="h-ultra">Cartas Tarot de Marsella</h1>
+                <h1 class="h-ultra">Tarot Genealógico y terapéutico</h1>
               </div>
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.1s">
-                <h4 class="h-light">Encuentra la <span class="color">mejor versión</span> de tí</h4>
+                <h4 class="h-light">Encuentra la <span class="color">mejor versión</span> de ti</h4>
               </div>
               <div class="well well-trans">
                 <div class="wow fadeInRight" data-wow-delay="0.1s">
 
                   <ul class="lead-list">
-                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Cartas estilo vintage versión Jodorowsky</strong><br />&nbsp;&nbsp;Nuestros comportamientos y emociones a menudo están influenciados por las experiencias de nuestros antepasados.</span></li>
-                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Impúlsate al mejor futuro</strong><br />&nbsp;&nbsp; El tarot es una herramienta que te ayuda a explorar tu árbol genealógico y comprender cómo las experiencias pasadas de tu familia pueden haber contribuido a los patrones de conducta inconscientes que afectan tu vida en la actualidad. Al sanar tu árbol genealógico, puedes liberarte de esos patrones y vivir una vida más auténtica y plena.</span></li>
-                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Conócete a ti mismo sin distracciones </strong><br /> &nbsp;&nbsp;El tarot es la herramienta más maravillosa para el autoconocimiento y autoiluminación, está más cerca del alma pura. Adecuado tanto para principiantes como para entusiastas</span></li>
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Transforma tu legado ancestral</strong><br />&nbsp;&nbsp; El tarot es una herramienta que te ayuda a explorar tu árbol genealógico y comprender cómo las experiencias pasadas de tu familia pueden haber contribuido a los patrones de conducta inconscientes que afectan tu vida en la actualidad. Al sanar tu árbol genealógico, puedes liberarte de esos patrones y vivir una vida más auténtica y plena.</span></li>
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Explora tu inconsciente </strong><br /> &nbsp;&nbsp;Una sesión de tarot terapéutico te ayuda a tomar conciencia de aspectos ocultos en tu vida, te orienta a tomar decisiones auténticas. Además, te permite ser consciente de tu situación actual, identificar lo que debes evitar y escuchar tu sabiduría interna.</span></li>
+                    <li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Cartas estilo vintage versión Jodorowsky</strong><br />&nbsp;&nbsp;También puedes adquirir tus cartas de tarot pulsando el botón que te llevará al Facebook Market</span></li>
                   </ul>
                   <p class="text-right wow bounceIn" data-wow-delay="0.4s">
-                    <a href="https://www.facebook.com/marketplace/item/688641329716022/?mibextid=6ojiHh" class="btn btn-skin btn-lg">Market <i class="fa fa-angle-right"></i></a>
+                    <a href="https://www.facebook.com/marketplace/item/688641329716022/?mibextid=6ojiHh" class="btn btn-skin btn-lg"> Comprar en Market <i class="fa fa-angle-right"></i></a>
                   </p>
                 </div>
               </div>
@@ -121,8 +121,65 @@
 
             </div>
             <div class="col-lg-6">
-              <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+              <!-- <div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
                 <img src="img/tarotcards.png" class="img-responsive" alt="" />
+              </div> -->
+              <div class="form-wrapper">
+                <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+
+                  <div class="panel panel-skin">
+                    <div class="panel-heading">
+                      <h3 class="panel-title"><span class="fa fa-pencil-square-o"></span> Cita para lectura de cartas <small>(Por sólo 30USD!)</small></h3>
+                    </div>
+                    <div class="panel-body">
+                      <div id="sendmessage">Tu mensage ha sido enviado. Gracias!</div>
+                      <div id="errormessage"></div>
+
+                      <form action="" method="post" role="form" class="contactForm lead" name="formulario-tarot" netlify>
+                        <div class="row">
+                          <div class="col-xs-6 col-sm-6 col-md-6">
+                            <div class="form-group">
+                              <label>Nombre</label>
+                              <input type="text" name="first_name" id="first_name" class="form-control input-md" data-rule="minlen:3" data-msg="Por favor ingresa al menos 3 caracteres" required>
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-xs-6 col-sm-6 col-md-6">
+                            <div class="form-group">
+                              <label>Apellido</label>
+                              <input type="text" name="last_name" id="last_name" class="form-control input-md" data-rule="minlen:3" data-msg="Por favor ingresa al menos 3 caracteres" required>
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-xs-6 col-sm-6 col-md-6">
+                            <div class="form-group">
+                              <label>Email</label>
+                              <input type="email" name="email" id="email" class="form-control input-md" data-rule="email" data-msg="Por favor ingresa un correo válido" required>
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                          <div class="col-xs-6 col-sm-6 col-md-6">
+                            <div class="form-group">
+                              <label>Número Tlf</label>
+                              <input type="text" name="phone" id="phone" class="form-control input-md" data-rule="required" data-msg="El número telefónico es requirido" required>
+                              <div class="validation"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <input type="submit" value="Enviar" class="btn btn-skin btn-block btn-lg" id="enviar_frm">
+                        <button id="gtm_btn" style="display:none" type="button" >GTM</button>
+
+                        <p class="lead-footer">* Nos podremos en contacto por teléfono/email pronto</p>
+
+                      </form>
+                    </div>
+                  </div>
+
+                </div>
               </div>
             </div>
 
@@ -788,7 +845,7 @@
                 <h5>Información</h5>
                 <ul>
                   <li><a href="index.html">Inicio</a></li>
-                  <li><a href="index-form.html">Consultas</a></li>
+                  <li><a href="index-form.html">Terapias</a></li>
                   <li><a href="index-video.html">Botica</a></li>
                   <li><a href="#">Términos y condiciones</a></li>
                 </ul>
